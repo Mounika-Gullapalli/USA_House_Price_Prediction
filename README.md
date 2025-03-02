@@ -1,6 +1,8 @@
 USA House Price Prediction Using Regression
 📌 Project Overview
+
 This project develops a predictive model for USA house prices using regression techniques on a Kaggle-sourced dataset (Dataset Link). By leveraging Scala and Apache Spark, we analyze real estate data to forecast prices based on key features, providing valuable insights for informed decision-making.
+
 
 📊 Dataset Description
 The dataset contains real estate records across various locations in the USA, with attributes such as:
