@@ -11,12 +11,10 @@ This project develops a predictive model for USA house prices using regression t
 3.Project_Presentation.pptx - A presentation summarizing the key findings and methodology.
 
 
-Dataset: The dataset consists of real estate records across various locations in the USA, containing attributes such as:
-Numerical Features: Number of bedrooms, bathrooms, lot size, house size, zip code, and price.
-Categorical Features: Property status, city, and state.
-Dataset Link: USA Real Estate Dataset
+Dataset: [USA Real Estate Dataset](https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset) 
 
 **Technologies Used**
+
 1.Scala - For data processing and model development
 
 2.Apache Spark - For distributed data handling and analysis
