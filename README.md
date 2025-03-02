@@ -1,32 +1,29 @@
-USA House Price Prediction Using Regression
-📌 Project Overview
+**USA House Price Prediction Using Regression**
 
-This project develops a predictive model for USA house prices using regression techniques on a Kaggle-sourced dataset (Dataset Link). By leveraging Scala and Apache Spark, we analyze real estate data to forecast prices based on key features, providing valuable insights for informed decision-making.
+This project develops a predictive model for USA house prices using regression techniques on a Kaggle-sourced dataset. We leveraged Scala and Apache Spark to analyze real estate data and forecast prices based on key features, providing valuable insights for informed decision-making.
+
+**Files in This Repository**
+1.HousePricePrediction.scala - Contains the full implementation of the regression models.
+2.Project_Report.pdf - A detailed report explaining the project, dataset, methodology, results, and insights.
+3.Project_Presentation.pptx - A presentation summarizing the key findings and methodology.
 
 
-📊 Dataset Description
-The dataset contains real estate records across various locations in the USA, with attributes such as:
-
+Dataset: The dataset consists of real estate records across various locations in the USA, containing attributes such as:
 Numerical Features: Number of bedrooms, bathrooms, lot size, house size, zip code, and price.
 Categorical Features: Property status, city, and state.
-⚙️ Technologies Used
-Scala for data processing and model development
-Apache Spark for distributed data handling and analysis
-Machine Learning: Implemented models include:
-Linear Regression
-Random Forest
-Gradient Boosting
-🏗️ How to Run the Code
-Clone the repository:
-sh
-Copy
-Edit
-git clone https://github.com/your-username/USA_House_Price_Prediction.git
-cd USA_House_Price_Prediction
-Set up Apache Spark and Scala on your system.
-Load the dataset (realtor_data.csv) into Spark.
-Run the Scala scripts (HousePricePrediction.scala) in your Spark environment.
-📈 Results & Insights
+Dataset Link: USA Real Estate Dataset
+
+**Technologies Used**
+1.Scala - For data processing and model development
+
+2.Apache Spark - For distributed data handling and analysis
+
+3.Machine Learning Models: Linear Regression, Random Forest, Gradient Boosting
+
+**Results & Insights**
+
 Random Forest performed best with an R² score of 0.86, outperforming Linear Regression and Gradient Boosting.
-Feature importance analysis highlighted square footage and location as major price determinants.
-Future work includes enhancing feature engineering and experimenting with ensemble learning techniques.
+
+Feature importance analysis highlighted square footage and location as the major price determinants.
+
+Future Work: Enhancing feature engineering and experimenting with ensemble learning techniques.
